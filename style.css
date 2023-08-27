@@ -17,6 +17,7 @@ html,body{
 }
 hr {width: 50%; margin: 0 25% 0 25%;}
 
+
 /* -------------Navbar--------------- */
 .header-sec{
     position: fixed;
@@ -48,11 +49,18 @@ hr {width: 50%; margin: 0 25% 0 25%;}
     gap: 1.5rem;
     list-style: none;
 }
+.navbar .items li:hover{
+    color: red;
+    cursor: pointer;
+}
 .navbar .items .icons{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     gap: 1rem;
+}
+.navbar .items i:hover{
+    color: red;
 }
 /* -------------Home page------------ */
 .home .img-box{
@@ -70,7 +78,7 @@ hr {width: 50%; margin: 0 25% 0 25%;}
 .home .img-box .img-items img{
     object-fit: cover;
     object-position: center;
-    max-width: 100%;
+    width: 100%;
     height: 100%;
     transition: all 0.2s ease-in-out;
 }
@@ -157,6 +165,9 @@ hr {width: 50%; margin: 0 25% 0 25%;}
     color: white;
     cursor: pointer;
 }
+.features .content button:hover,.features-rev .content button:hover{
+    background-color: #888888;
+}
 /* ---------Banner-2--------- */
 .banner-2{
     background-image: url('https://boostedusa.com/cdn/shop/files/boosted-rev-display_3000x.jpg?v=1646160921');
@@ -181,6 +192,9 @@ hr {width: 50%; margin: 0 25% 0 25%;}
     color: white;
     cursor: pointer;
     margin: 1rem;
+}
+.banner-2 button:hover{
+    background-color: #888888;
 }
 .youtube{
     padding: 2rem 12rem;
@@ -207,6 +221,9 @@ hr {width: 50%; margin: 0 25% 0 25%;}
     color: white;
     cursor: pointer;
     margin: 1rem;
+}
+.banner-3 button:hover{
+    background-color: #888888;
 }
 .banner-3 h1{
     font-size: 3rem;
