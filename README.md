@@ -3,7 +3,32 @@ Hosted-Link:
 https://yadnika10.github.io/Weekly_test_boosted_skate/
 <br>
 __Note::Huge File please scroll till the end..
-<br>
+
+1.Header-section:<br>
+-Header has navbar as flex with logo and icons.<br>
+-Positions as fixed.<br>
+-Z-index<br>
+2.Home:<br>
+-Home has 4 image-box that has 50% width and display as flex and images have 100% width to the image-box.<br>
+3.Banner-1:<br>
+-Banner-1 has 4 images as flex and property of flex wrap.<br>
+-Same for all banners that have images and text.<br>
+4.Info:<br>
+-Text aligned in center and added colors and decoration.<br>
+5.Features-section:<br>
+-Features have 3 parts images and text as flex row and flex-row-reverse and width to the boxes and some padding.<br>
+6.Iframe for youtube video with width 100% and height as 600.<br>
+7.Products-section:<br>
+-It has items and prices in Scroll fashion added scroll bar and flex to it.<br>
+8.Subscribe:<br>
+-Has one form hover effets to all buttons and form in center display of this div also as flex.<br>
+9.Footer:<br>
+-Flex display.<br>
+10.Media Queries:<br>
+-for Extra small devices (phones, 600px and down) and <br>
+-Large devices (laptops/desktops, 992px and up).<br>
+-Display as flex and width for them as 100% and reduction in padding and margin and flex wrap property.<br>
+
 ![1](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/5dc34261-3914-4759-9af0-b97464fc27e1)
 ![2](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/f1837670-4cdd-4e72-83d0-2b285db94024)
 ![3](https://github.com/yadnika10/Weekly_test_boosted_skate/assets/122971264/c8a13f86-b834-40bd-b30d-267347fe3923)
